@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Explora - Результаты поиска</title>
+	<meta property="og:title" content="Explora - Результаты поиска">
+	<meta property="og:description" content="Описание">
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="Explora - Результаты поиска">
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<!-- styles -->
+	<link rel="stylesheet" href="css/vendor.min.css">
+	<link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header header--static" id="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
+						<span class="hamburger__inner"></span>
+						<span class="hamburger__inner"></span>
+						<span class="hamburger__inner"></span>
+					</button>
+					<a href="index.html" class="header__logotype">
+						<img src="img/logotype.png" width="121" height="29" alt="EXPLORA" class="header__logotype-default">
+						<img src="img/logotype-explora-accent.png" width="121" height="29" alt="EXPLORA" class="header__logotype-accent">
+					</a>
+					<div class="header__contacts">
+						<a href="tel:+79264401086" class="header__link">
+							<svg>
+								<use xlink:href="img/sprite.svg#icon-phone"></use>
+							</svg>
+							<span>+7 926 440-10-86</span>
+						</a>
+					</div>
+					<nav class="nav header__nav">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="collections.html" class="nav__link">ТЕМАТИЧЕСКИЕ ПОДБОРКИ</a>
+							</li>
+							<li class="nav__item">
+								<a href="search.html" class="nav__link">ПОДБОР КРУИЗА</a>
+							</li>
+							<li class="nav__item">
+								<a href="fleet.html" class="nav__link">ФЛОТ</a>
+							</li>
+							<li class="nav__item">
+								<a href="contacts.html" class="nav__link">КОНТАКТЫ</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- end of header -->
+		<!-- content -->
+		<div class="wrapper__content">
+			<!-- search results -->
+			<div class="search-results" id="search-results">
+				<div class="container">
+					<div class="search-results__wrap">
+						<picture class="search-results__logotype">
+							<img src="img/logotype-explora-accent.png" width="59" height="56" alt="Explora">
+						</picture>
+						<div class="search-sort search-results__sort">
+							<div class="search-sort__wrapper">
+								<div class="search-sort__inner">
+									<span class="search-sort__result">Результатов: <span>5</span></span>
+								</div>
+								<div class="search-sort__inner">
+									<div class="search-sort__checkboxes">
+										<div class="square-checkbox search-sort__checkbox">
+											<input type="checkbox" class="square-checkbox__input" id="filter-group-01">
+											<label for="filter-group-01" class="square-checkbox__group">
+												<span class="square-checkbox__icon"></span>
+												<span class="square-checkbox__title">русскоязычная группа</span>
+											</label>
+										</div>
+									</div>
+									<!-- add class 'is--active' -->
+									<button class="search-sort__order">
+										<span class="search-sort__order-default">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-sort-down"></use>
+											</svg>
+											<span>цена по убыванию</span>
+										</span>
+										<span class="search-sort__order-active">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-sort-up"></use>
+											</svg>
+											<span>цена по возрастанию</span>
+										</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="search-results__wrapper">
+							<div class="search-results-card search-results__item">
+								<picture class="search-results-card__img">
+									<img src="img/search-results-01.jpg" alt="Image">
+								</picture>
+								<div class="search-results-card__body">
+									<span class="search-results-card__title">Акция Unique Oceans от EXPLORA JOURNEYS</span>
+									<span class="search-results-card__help">Увидьте мир вместе с нами!</span>
+									<div class="search-results-card__info">
+										<span class="search-results-card__info-elem">05.06.2025, Майами, США</span>
+										<span class="search-results-card__info-elem">2 дня, 1 ночь</span>
+									</div>
+									<div class="search-results-card__details">
+										<span class="search-results-card__details-elem">Монако - Италия - Испания</span>
+										<span class="search-results-card__details-elem">Эксплора I</span>
+									</div>
+									<div class="search-results-card__bottom">
+										<a href="#" class="search-results-card__btn btn btn--dark">ПОДРОБНЕЕ</a>
+										<span class="search-results-card__price">от <span>$3755</span></span>
+									</div>
+								</div>
+							</div>
+							<div class="search-results-card search-results__item">
+								<picture class="search-results-card__img">
+									<img src="img/search-results-02.jpg" alt="Image">
+								</picture>
+								<div class="search-results-card__body">
+									<span class="search-results-card__title">Новые круизы вокруг света</span>
+									<span class="search-results-card__help">Увидьте мир вместе с нами!</span>
+									<div class="search-results-card__info">
+										<span class="search-results-card__info-elem">05.06.2025, Майами, США</span>
+										<span class="search-results-card__info-elem">2 дня, 1 ночь</span>
+									</div>
+									<div class="search-results-card__details">
+										<span class="search-results-card__details-elem">Монако - Италия - Испания</span>
+										<span class="search-results-card__details-elem">Эксплора I</span>
+									</div>
+									<div class="search-results-card__bottom">
+										<a href="#" class="search-results-card__btn btn btn--dark">ПОДРОБНЕЕ</a>
+										<span class="search-results-card__price">от <span>$3755</span></span>
+									</div>
+								</div>
+							</div>
+							<div class="search-results-card search-results__item">
+								<picture class="search-results-card__img">
+									<img src="img/search-results-03.jpg" alt="Image">
+								</picture>
+								<div class="search-results-card__body">
+									<span class="search-results-card__title">Южная Африка</span>
+									<span class="search-results-card__help">Редкие экзотические маршруты</span>
+									<div class="search-results-card__info">
+										<span class="search-results-card__info-elem">05.06.2025, Майами, США</span>
+										<span class="search-results-card__info-elem">2 дня, 1 ночь</span>
+									</div>
+									<div class="search-results-card__details">
+										<span class="search-results-card__details-elem">Монако - Италия - Испания</span>
+										<span class="search-results-card__details-elem">Эксплора I</span>
+									</div>
+									<div class="search-results-card__bottom">
+										<a href="#" class="search-results-card__btn btn btn--dark">ПОДРОБНЕЕ</a>
+										<span class="search-results-card__price">от <span>$3755</span></span>
+									</div>
+								</div>
+							</div>
+							<div class="search-results-card search-results__item">
+								<picture class="search-results-card__img">
+									<img src="img/search-results-04.jpg" alt="Image">
+								</picture>
+								<div class="search-results-card__body">
+									<span class="search-results-card__title">Акция Unique Oceans от EXPLORA JOURNEYS</span>
+									<span class="search-results-card__help">Увидьте мир вместе с нами!</span>
+									<div class="search-results-card__info">
+										<span class="search-results-card__info-elem">05.06.2025, Майами, США</span>
+										<span class="search-results-card__info-elem">2 дня, 1 ночь</span>
+									</div>
+									<div class="search-results-card__details">
+										<span class="search-results-card__details-elem">Монако - Италия - Испания</span>
+										<span class="search-results-card__details-elem">Эксплора I</span>
+									</div>
+									<div class="search-results-card__bottom">
+										<a href="#" class="search-results-card__btn btn btn--dark">ПОДРОБНЕЕ</a>
+										<span class="search-results-card__price">от <span>$3755</span></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end of search results -->
+			<!-- collections -->
+			<section class="collections section-indent-top" id="collections">
+				<div class="container">
+					<div class="section-heading">
+						<h2 class="section-heading__title">НОВые предложения</h2>
+						<p class="section-heading__description">Спешите занять лучшие места!</p>
+					</div>
+					<div class="collections__wrapper">
+						<div class="collections-card collections__item" style="background-image: url(img/collections-01.jpg);">
+							<div class="collections-card__body">
+								<span class="collections-card__title">ЮЖНАЯ АМЕРИКА. Круизы без виз</span>
+								<span class="collections-card__description">Разнообразные маршруты от 6 до 9 ночей. Лайнеры на любой вкус</span>
+							</div>
+							<a href="#" class="collections-card__btn btn btn--sm btn--border-white">ПОДРОБНЕЕ</a>
+						</div>
+						<div class="collections-card collections__item" style="background-image: url(img/collections-02.jpg);">
+							<div class="collections-card__body">
+								<span class="collections-card__title">ЮЖНАЯ АФРИКА. Круизы без виз</span>
+								<span class="collections-card__description">Редкие экзотические маршруты</span>
+							</div>
+							<a href="#" class="collections-card__btn btn btn--sm btn--border-white">ПОДРОБНЕЕ</a>
+						</div>
+						<div class="collections-card collections__item" style="background-image: url(img/collections-03.jpg);">
+							<div class="collections-card__body">
+								<span class="collections-card__title">ЮЖНАЯ АФРИКА. Круизы без виз</span>
+								<span class="collections-card__description">Редкие экзотические маршруты</span>
+							</div>
+							<a href="#" class="collections-card__btn btn btn--sm btn--border-white">ПОДРОБНЕЕ</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- end of collections -->
+		</div>
+		<!-- end of content -->
+		<!-- footer -->
+		<footer class="footer footer--indent" id="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<div class="footer__block">
+						<span class="footer__title">О EXPLORA JOURNEYS</span>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Наша история</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Наши награды</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__block">
+						<span class="footer__title">НА САЙТЕ</span>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Главная</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Подборки круизов</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Города</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Личный кабинет</a>
+							</li>
+							<li class="footer__list-item">
+								<a href="#" class="footer__link">Рестораны</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__block">
+						<div class="c-special-offers footer__special-offers">
+							<span class="c-special-offers__title">ПОЛУЧАЙТЕ СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</span>
+							<p class="c-special-offers__description">Будьте в курсе событий и вдохновляйтесь — подпишитесь на нашу рассылку, чтобы быть в курсе последних предложений и направлений.</p>
+							<a href="#" class="c-special-offers__btn btn">ПОДПИШИТЕСЬ</a>
+						</div>
+					</div>
+					<div class="footer__block">
+						<a href="sitebuilders.ru" class="footer__author" target="_blank">
+							<img src="img/sitebuilders.svg" width="63" height="63" alt="SITEBUILDERS">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- end of footer -->
+	</div>
+	<!-- end of wrapper -->
+	<!-- mobile menu -->
+	<div class="mobile-menu scroll-fixed" id="mobile-menu">
+		<div class="mobile-menu__wrap">
+			<button class="mobile-menu__close" aria-label="Закрыть">
+				<svg>
+					<use xlink:href="img/sprite.svg#icon-close"></use>
+				</svg>
+			</button>
+			<nav class="mobile-menu__nav">
+				<ul class="mobile-menu__list">
+					<li class="mobile-menu__item">
+						<a href="collections.html" class="mobile-menu__link">Наши подборки</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a href="search.html" class="mobile-menu__link">Корабли</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a href="fleet.html" class="mobile-menu__link">Страны</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a href="contacts.html" class="mobile-menu__link">Оставить заявку</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a href="#" class="mobile-menu__link">Найти круиз</a>
+					</li>
+				</ul>
+				<ul class="mobile-menu__list">
+					<li class="mobile-menu__item">
+						<a href="fleet.html" class="mobile-menu__link">О нас</a>
+					</li>
+					<li class="mobile-menu__item">
+						<a href="fleet.html" class="mobile-menu__link">Задать вопрос</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- end of mobile menu -->
+	<!-- modals -->
+	<div class="modal" id="modal-cruise-book">
+		<div class="modal__wrap">
+			<div class="modal__wrapper">
+				<button class="modal__close-btn modal__close" aria-label="Закрыть">
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<span class="modal__heading">ЗАКАЗ КРУИЗА</span>
+				<div class="book-cruise modal__book-cruise">
+					<div class="book-cruise__wrapper">
+						<div class="book-cruise__left">
+							<picture class="book-cruise__img">
+								<img src="img/book-cruise.jpg" alt="Image">
+							</picture>
+							<div class="input-field book-cruise__input">
+								<div class="input-field__inner">
+									<input id="modal-cruize-name" type="text" class="input-field__input" placeholder="Имя">
+								</div>
+								<span class="input-field__error">Это поле обязательное для заполнения!</span>
+							</div>
+							<div class="input-field book-cruise__input">
+								<div class="input-field__inner">
+									<input id="modal-cruize-email" type="email" class="input-field__input" placeholder="E-mail">
+								</div>
+								<span class="input-field__error">Это поле обязательное для заполнения!</span>
+							</div>
+							<div class="input-field book-cruise__input">
+								<div class="input-field__inner">
+									<input id="modal-cruize-tel" type="tel" class="input-field__input" placeholder="Телефон">
+								</div>
+								<span class="input-field__error">Это поле обязательное для заполнения!</span>
+							</div>
+							<div class="input-field book-cruise__textarea">
+								<div class="input-field__inner">
+									<textarea id="feedback-message" class="input-field__textarea" placeholder="Дополнительная информация"></textarea>
+								</div>
+								<span class="input-field__error">Это поле обязательное для заполнения!</span>
+							</div>
+						</div>
+						<div class="book-cruise__right">
+							<div class="book-cruise__top">
+								<span class="book-cruise__title">Бразилия</span>
+								<span class="book-cruise__location">Италия - Франция - Испания - Марокко - Кабо-Верде - Бразилия</span>
+							</div>
+							<div class="book-cruise__info">
+								<span class="book-cruise__info-item">05.01.2025, Генуя</span>
+								<span class="book-cruise__info-item">24 дней, 23 ночей</span>
+							</div>
+							<div class="book-cruise__prices">
+								<span class="book-cruise__help">минимальная стоимость *</span>
+								<span class="book-cruise__price">701 220 ₽ </span>
+								<span class="book-cruise__help">*Указана цена круиза на одного человека при двухместном размещении без учета портового сбора</span>
+							</div>
+							<div class="input-field book-cruise__input">
+								<div class="input-field__inner">
+									<input id="modal-cruize-tel" type="number" class="input-field__input" placeholder="Количество человек">
+								</div>
+								<span class="input-field__error">Это поле обязательное для заполнения!</span>
+							</div>
+							<button class="book-cruise__btn btn">ОТПРАВИТЬ</button>
+							<a href="#" class="book-cruise__contact-btn contact-btn contact-btn--green">
+								<svg>
+									<use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+								</svg>
+								<span>WHATSAPP</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modal-cruise">
+		<div class="modal__wrap modal__wrap--md">
+			<div class="modal__wrapper">
+				<button class="modal__close-btn modal__close" aria-label="Закрыть">
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<span class="modal__heading">ЗАКАЗ КРУИЗА</span>
+				<form action="#" class="modal-form modal__form">
+					<div class="input-field modal-form__input">
+						<div class="input-field__inner">
+							<input id="modal-cruize-name" type="text" class="input-field__input" placeholder="Имя">
+						</div>
+						<span class="input-field__error">Это поле обязательное для заполнения!</span>
+					</div>
+					<div class="input-field modal-form__input">
+						<div class="input-field__inner">
+							<input id="modal-cruize-email" type="email" class="input-field__input" placeholder="E-mail">
+						</div>
+						<span class="input-field__error">Это поле обязательное для заполнения!</span>
+					</div>
+					<div class="input-field modal-form__input">
+						<div class="input-field__inner">
+							<input id="modal-cruize-tel" type="tel" class="input-field__input" placeholder="Телефон">
+						</div>
+						<span class="input-field__error">Это поле обязательное для заполнения!</span>
+					</div>
+					<div class="input-field modal-form__textarea">
+						<div class="input-field__inner">
+							<textarea id="feedback-message" class="input-field__textarea" placeholder="Дополнительная информация"></textarea>
+						</div>
+						<span class="input-field__error">Это поле обязательное для заполнения!</span>
+					</div>
+					<button class="modal-form__btn btn">ОТПРАВИТЬ</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modal-cabin">
+		<div class="modal__wrap modal__wrap--lg">
+			<div class="modal__wrapper">
+				<button class="modal__close-btn modal__close" aria-label="Закрыть">
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<span class="modal__heading">Каюта с окном Infinite Fantastica</span>
+				<div class="modal-info modal__info">
+					<div class="modal-info__wrapper">
+						<div class="modal-info__left">
+							<div class="modal-info__slider">
+								<div class="swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<picture class="modal-info__slide">
+												<img src="img/booking-cabin-01.jpg" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="modal-info__slide">
+												<img src="img/booking-cabin-02.jpg" alt="Image">
+											</picture>
+										</div>
+										<div class="swiper-slide">
+											<picture class="modal-info__slide">
+												<img src="img/booking-cabin-03.jpg" alt="Image">
+											</picture>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+								<button class="swiper-button-prev" aria-label="Назад">
+									<svg class="swiper-button-icon">
+										<use xlink:href="img/sprite.svg#icon-arrow-prev-bold"></use>
+									</svg>
+								</button>
+								<button class="swiper-button-next" aria-label="Далее">
+									<svg class="swiper-button-icon">
+										<use xlink:href="img/sprite.svg#icon-arrow-next-bold"></use>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="modal-info__right">
+							<div class="modal-info__content">
+								<h3>В сьюте</h3>
+								<ul>
+									<li>панорамные окна с видом на море; лаундж-зона с журнальным столиком;</li>
+									<li>мини-бар, пополняемый по потребностям гостей;</li>
+									<li>кофемашина и капсулы кофе, чайник, заварочный чайник, ассортимент чая;</li>
+									<li>бутылка воды на каждого гостя (пополняется по необходимости);</li>
+									<li>пара биноклей (предоставляется на время круиза);</li>
+									<li>сейф, вмещающий ноутбук или планшет;</li>
+									<li>просторная терраса с обеденной зоной и шезлонгом.</li>
+								</ul>
+								<h3>В спальне</h3>
+								<ul>
+									<li>основное спальное место: двуспальная кровать (king-sized 180x200 см), в некоторых сьютах есть 2 односпальные кровати (twin-size 2х90х200 см);</li>
+									<li>одеяла и подушки на лебяжьем пуху; выбор подушек;</li>
+									<li>постельное белье от премиального итальянского бренда Frette.</li>
+									<li>дополнительное спальное место: раскладная кровать, которую персонал ежедневно устанавливает в сьюте перед сном и забирает на следующий день.  </li>
+								</ul>
+								<h3>В ванной комнате</h3>
+								<ul>
+									<li>просторная ванная комната с душевой кабиной и подогреваемыми полами (в некоторых сьютах есть ванна);</li>
+									<li>мягкие махровые халаты и тапочки;</li>
+									<li>индивидуальные ванные принадлежности;</li>
+									<li>фен Dyson Supersonic;</li>
+									<li>зеркало для макияжа с подсветкой.</li>
+								</ul>
+								<h3>Примечание</h3>
+								<ul>
+									<li>Сьюты с двумя раздельными кроватями отмечены на схеме лайнера обозначением «T», в остальных сьютах – одна двуспальная кровать. Одна конфигурация кроватей не может быть трансформирована в другую.</li>
+									<li>Схема сьюта, площадь, количество спальных мест, меблировка и дизайн интерьеров, конструктивные особенности могут отличаться от представленных на фотографии (даже среди сьютов одной категории).</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of modals -->
+	<!-- scripts -->
+	<script src="js/vendor.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
