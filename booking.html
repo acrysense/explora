@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Морские круизы от MSC Cruises - Бронирование</title>
-	<meta property="og:title" content="Морские круизы от MSC Cruises - Бронирование">
+	<title>Explora - Бронирование</title>
+	<meta property="og:title" content="Explora - Бронирование">
 	<meta property="og:description" content="Описание">
 	<meta property="og:url" content="/">
-	<meta property="og:site_name" content="Морские круизы от MSC Cruises - Бронирование">
+	<meta property="og:site_name" content="Explora - Бронирование">
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -27,7 +27,7 @@
 	<!-- wrapper -->
 	<div class="wrapper">
 		<!-- header -->
-		<header class="header @@header" id="header">
+		<header class="header header--inner" id="header">
 			<div class="container">
 				<div class="header__wrapper">
 					<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
@@ -73,83 +73,32 @@
 			<div class="booking" id="booking">
 				<div class="container">
 					<div class="booking__wrap">
-						<div class="booking__top">
-							<div class="booking-data-details booking__data-details">
-								<ul class="booking-data-details__list">
-									<li class="booking-data-details__item">
-										<span class="booking-data-details__elem">01.01.25, Токио</span>
-									</li>
-									<li class="booking-data-details__item">
-										<span class="booking-data-details__elem">10 ночей</span>
-									</li>
-									<li class="booking-data-details__item">
-										<span class="booking-data-details__elem">MSC Belissimo</span>
-									</li>
-								</ul>
-							</div>
-							<div class="booking-prices booking__top-prices">
-								<div class="booking-prices__wrapper">
-									<div class="booking-prices__info">
-										<span class="booking-prices__value">Стоимость круиза: 3198 €</span>
-										<span class="booking-prices__value">Сервисный сбор: +340 €</span>
-									</div>
-									<div class="booking-prices__total">
-										<span class="booking-prices__label">всего</span>
-										<span class="booking-prices__price">1600 €</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="booking-stage booking__stage" style="--progress: 37.5%;">
+						<div class="booking-stage booking__stage">
 							<div class="booking-stage__wrapper">
-								<div class="booking-stage__item">
-									<span class="booking-stage__label">Кто</span>
-									<span class="booking-stage__value">
-										2 взрослых<br>
-										1 детей
-									</span>
+								<div class="booking-stage__item is--done">
+									<span class="booking-stage__label">Сколько гостей</span>
 								</div>
 								<div class="booking-stage__item">
-									<span class="booking-stage__label">пакет</span>
-									<span class="booking-stage__value">
-										Пакет напитков EASY
-									</span>
+									<span class="booking-stage__label">Тип каюты</span>
 								</div>
 								<div class="booking-stage__item">
-									<span class="booking-stage__label">Тип</span>
-									<span class="booking-stage__value">
-										Внешняя с балконом
-									</span>
+									<span class="booking-stage__label">Категория каюты</span>
 								</div>
 								<div class="booking-stage__item">
-									<span class="booking-stage__label">ТАРИФ</span>
-									<span class="booking-stage__value">Fantastica</span>
+									<span class="booking-stage__label">Данные гостей</span>
 								</div>
 								<div class="booking-stage__item">
-									<span class="booking-stage__label">КАТЕГОРИЯ</span>
-									<span class="booking-stage__value">
-										Каюта с окном Infinite Fantastica
-									</span>
-								</div>
-								<div class="booking-stage__item">
-									<span class="booking-stage__label">НОМЕР каюты</span>
-									<span class="booking-stage__value">14202</span>
-								</div>
-								<div class="booking-stage__item">
-									<span class="booking-stage__label">ДАННЫЕ</span>
-									<span class="booking-stage__value">Заполнены</span>
-								</div>
-								<div class="booking-stage__item">
-									<span class="booking-stage__label">бронь</span>
-									<span class="booking-stage__value">-</span>
+									<span class="booking-stage__label">Итог</span>
 								</div>
 							</div>
+							<picture class="booking-stage__bg">
+								<img src="img/booking-stage-bg.jpg" alt="Image">
+							</picture>
 						</div>
 						<div class="booking__holder is--active">
 							<div class="booking__main">
 								<div class="section-heading">
-									<h2 class="section-heading__title">СКОЛЬКО ВАС?</h2>
-									<p class="section-heading__description">Выберите, пожалуйста, количество и возраст</p>
+									<h2 class="section-heading__title">Количество гостей</h2>
 								</div>
 								<div class="booking-quantity booking__quantity">
 									<div class="booking-quantity__wrapper">
@@ -207,54 +156,8 @@
 						<div class="booking__holder">
 							<div class="booking__main">
 								<div class="section-heading">
-									<h2 class="section-heading__title">ВЫБЕРИТЕ ПАКЕТ</h2>
-									<p class="section-heading__description">Решите, хотите ли вы сэкономить на напитках</p>
-								</div>
-								<div class="booking-package booking__package">
-									<div class="booking-package__wrapper">
-										<div class="booking-package__item">
-											<input type="radio" class="booking-package__checkbox" id="booking-package-01" name="booking-package" checked>
-											<label for="booking-package-01" class="booking-package__label"></label>
-											<div class="booking-package__item-inner">
-												<picture class="booking-package__img">
-													<img src="img/booking-package-01.svg" alt="Image">
-												</picture>
-												<div class="booking-package__body">
-													<span class="booking-package__title">Базовый пакет</span>
-													<div class="booking-package__content">
-														<p>
-															<b>питание</b> — 2 бесплатных ресторана<br>
-															<b>напитки</b> — вода, чай, кофе (в ресторане «шведский стол»)<br>
-															<b>инфраструктура</b> — театральное шоу, анимация, бассейны, аквапарк, детский клуб, спортивные сооружения и тд.
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="booking-package__item">
-											<input type="radio" class="booking-package__checkbox" id="booking-package-02" name="booking-package" disabled>
-											<label for="booking-package-02" class="booking-package__label"></label>
-											<div class="booking-package__item-inner">
-												<picture class="booking-package__img">
-													<img src="img/booking-package-02.svg" alt="Image">
-												</picture>
-												<div class="booking-package__body">
-													<span class="booking-package__title">Пакет напитков</span>
-													<div class="booking-package__content">
-														<p><b>Все параметры базового. Дополнительно к базовому — пакет напитков Easy</b> — любые напитки стоимостью до 7 евро без ограничения количества во всех барах и ресторанах корабля. Для детей до 17 лет — безалкогольный пакет Minors</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="booking__holder">
-							<div class="booking__main">
-								<div class="section-heading">
 									<h2 class="section-heading__title">ТИП КАЮТЫ</h2>
-									<p class="section-heading__description">Для указанного количества путешественников доступны каюты этих типов</p>
+									<p class="section-heading__description">Выберите, пожалуйста, тип желаемой каюты</p>
 								</div>
 								<div class="booking-cabin">
 									<div class="booking-cabin__wrapper">
@@ -264,14 +167,16 @@
 											<div class="booking-cabin__item-inner">
 												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-01.jpg" alt="Image">
-													<a href="#" class="booking-cabin__btn btn btn--border-white modal-btn" data-id="modal-cabin">ПОДРОБНЕЕ</a>
 												</div>
 												<div class="booking-cabin__body">
 													<div class="booking-cabin__group">
-														<span class="booking-cabin__title">Внутренняя</span>
-														<span class="booking-cabin__description">недорогая каюта без окна</span>
+														<span class="booking-cabin__title">Ocean Terrace Suite</span>
+														<span class="booking-cabin__description">элегантная каюта близко к океану позволит великолепно отдохнуть</span>
 													</div>
-													<span class="booking-cabin__price">от <span>3198 €</span></span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>3198 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -281,14 +186,16 @@
 											<div class="booking-cabin__item-inner">
 												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-02.jpg" alt="Image">
-													<a href="#" class="booking-cabin__btn btn btn--border-white modal-btn" data-id="modal-cabin">ПОДРОБНЕЕ</a>
 												</div>
 												<div class="booking-cabin__body">
 													<div class="booking-cabin__group">
-														<span class="booking-cabin__title">Внешняя с окном</span>
-														<span class="booking-cabin__description">приятная каюта с окном</span>
+														<span class="booking-cabin__title">Penthouse </span>
+														<span class="booking-cabin__description">элегантная каюта близко к океану позволит великолепно отдохнуть</span>
 													</div>
-													<span class="booking-cabin__price">от <span>3228 €</span></span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>3228 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -298,14 +205,16 @@
 											<div class="booking-cabin__item-inner">
 												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-03.jpg" alt="Image">
-													<a href="#" class="booking-cabin__btn btn btn--border-white modal-btn" data-id="modal-cabin">ПОДРОБНЕЕ</a>
 												</div>
 												<div class="booking-cabin__body">
 													<div class="booking-cabin__group">
-														<span class="booking-cabin__title">Внешняя с балконом</span>
+														<span class="booking-cabin__title">Residence</span>
 														<span class="booking-cabin__description">уютная каюта с балконом</span>
 													</div>
-													<span class="booking-cabin__price">от <span>3958 €</span></span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>3958 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -315,129 +224,18 @@
 											<div class="booking-cabin__item-inner">
 												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-04.jpg" alt="Image">
-													<a href="#" class="booking-cabin__btn btn btn--border-white modal-btn" data-id="modal-cabin">ПОДРОБНЕЕ</a>
 												</div>
 												<div class="booking-cabin__body">
 													<div class="booking-cabin__group">
-														<span class="booking-cabin__title">Сьют Aurea</span>
+														<span class="booking-cabin__title">Owner’s Residence</span>
 														<span class="booking-cabin__description">премиум-вариант с балконом</span>
 													</div>
-													<span class="booking-cabin__price">от <span>5738 €</span></span>
-												</div>
-											</div>
-										</div>
-										<div class="booking-cabin__item">
-											<input type="radio" class="booking-cabin__checkbox" id="booking-cabin-05" name="booking-cabin" disabled>
-											<label for="booking-cabin-05" class="booking-cabin__label"></label>
-											<div class="booking-cabin__item-inner">
-												<div class="booking-cabin__img">
-													<img src="img/booking-cabin-05.jpg" alt="Image">
-													<a href="#" class="booking-cabin__btn btn btn--border-white modal-btn" data-id="modal-cabin">ПОДРОБНЕЕ</a>
-												</div>
-												<div class="booking-cabin__body">
 													<div class="booking-cabin__group">
-														<span class="booking-cabin__title">Сьют Yacht Club</span>
-														<span class="booking-cabin__description">люкс-класс</span>
-													</div>
-													<span class="booking-cabin__price">от <span>7738 €</span></span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="booking__holder">
-							<div class="booking__main">
-								<div class="section-heading">
-									<h2 class="section-heading__title">ВОЗМОЖНОСТИ</h2>
-									<p class="section-heading__description">Выберите каюту с дополнительными возможностями или минимальный тариф в своей категории</p>
-								</div>
-								<div class="booking-possibilities">
-									<div class="booking-possibilities__wrapper">
-										<div class="booking-possibilities__item">
-											<input type="radio" class="booking-possibilities__checkbox" id="booking-possibilities-01" name="booking-possibilities">
-											<label for="booking-possibilities-01" class="booking-possibilities__label"></label>
-											<div class="booking-possibilities__item-inner">
-												<div class="booking-possibilities__main">
-													<div class="booking-possibilities__top">
-														<picture class="booking-possibilities__img">
-															<img src="img/booking-possibilities-01.svg" alt="Image">
-														</picture>
-														<span class="booking-possibilities__title">Bella</span>
-													</div>
-													<div class="booking-possibilities__content">
-														<p>
-															<b>Полный набор услуг по минимальной стоимости</b>
-														</p>
-														<ul>
-															<li>бронируется категория каюты без выбора расположения</li>
-															<li>номер и расположение каюты будут известны перед круизом</li>
-															<li>возможность 1 раз перенести круиз за 50 € с человека*</li>
-														</ul>
+														<span class="booking-cabin__price">от <span>5738 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
 													</div>
 												</div>
-												<span class="booking-possibilities__price">от <span>3228 €</span></span>
 											</div>
-										</div>
-										<div class="booking-possibilities__item">
-											<input type="radio" class="booking-possibilities__checkbox" id="booking-possibilities-02" name="booking-possibilities" checked>
-											<label for="booking-possibilities-02" class="booking-possibilities__label"></label>
-											<div class="booking-possibilities__item-inner">
-												<div class="booking-possibilities__main">
-													<div class="booking-possibilities__top">
-														<picture class="booking-possibilities__img">
-															<img src="img/booking-possibilities-02.svg" alt="Image">
-														</picture>
-														<span class="booking-possibilities__title">Fantastica</span>
-													</div>
-													<div class="booking-possibilities__content">
-														<p>
-															<b>Свобода выбора</b>
-														</p>
-														<ul>
-															<li>бронируется конкретная каюта в своей категории</li>
-															<li>выбор номера каюты, калубы, расположения из числа доступных</li>
-															<li>возможность 1 раз перенести дату круиза бесплатно*</li>
-														</ul>
-													</div>
-												</div>
-												<span class="booking-possibilities__price">от <span>3228 €</span></span>
-											</div>
-										</div>
-										<div class="booking-possibilities__item">
-											<input type="radio" class="booking-possibilities__checkbox" id="booking-possibilities-03" name="booking-possibilities" disabled>
-											<label for="booking-possibilities-03" class="booking-possibilities__label"></label>
-											<div class="booking-possibilities__item-inner">
-												<div class="booking-possibilities__main">
-													<div class="booking-possibilities__top">
-														<picture class="booking-possibilities__img">
-															<img src="img/booking-possibilities-03.svg" alt="Image">
-														</picture>
-														<span class="booking-possibilities__title">Aurea</span>
-													</div>
-													<div class="booking-possibilities__content">
-														<p>
-															<b>Лучшие карты + дополнительные возможности</b>
-														</p>
-														<ul>
-															<li>отдельный солярий на верхней палубе</li>
-															<li>отдельная хона для ужина в ресторане a la carte</li>
-															<li>приоритетная регистрация на судно**</li>
-															<li>возможность 1 раз перенести дату круиза бесплатно*</li>
-														</ul>
-													</div>
-												</div>
-												<span class="booking-possibilities__price">от <span>3228 €</span></span>
-											</div>
-										</div>
-									</div>
-									<div class="booking-possibilities__bottom">
-										<div class="booking-possibilities__content">
-											<p>
-												* Данная возможность переноса круиза предоставляется однократно и не позднее чем за 45 календарных дней до отправления. При этом новая дата отправления должна быть позднее первоначальной и в пределах 3 месяцев от нее.<br>
-												** Не во всех портах
-											</p>
 										</div>
 									</div>
 								</div>
@@ -447,167 +245,82 @@
 							<div class="booking__main">
 								<div class="section-heading">
 									<h2 class="section-heading__title">КАТЕГОРИЯ КАЮТЫ</h2>
-									<p class="section-heading__description">Выберите класс каюты на лайнере</p>
+									<p class="section-heading__description">Для указанного количества гостей доступны каюты этих категорий</p>
 								</div>
-								<div class="booking-cabin-type">
-									<div class="booking-cabin-type__wrapper">
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-01" name="booking-cabin-category">
-											<label for="booking-cabin-category-01" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
+								<div class="booking-cabin">
+									<div class="booking-cabin__wrapper">
+										<div class="booking-cabin__item">
+											<input type="radio" class="booking-cabin__checkbox" id="booking-cabin-type-01" name="booking-cabin-type">
+											<label for="booking-cabin-type-01" class="booking-cabin__label"></label>
+											<div class="booking-cabin__item-inner">
+												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-01.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
 												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с окном Deluxe Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 5, 9</span>
+												<div class="booking-cabin__body">
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__title">Premier Penthouse</span>
+														<span class="booking-cabin__description">Палубы 8, 9, 10 (середина)</span>
 													</div>
-													<span class="booking-cabin-type__price">от <span>3198 €</span></span>
-													<span class="booking-cabin-type__description">каюта ~20 м2</span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>20 170 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
+													</div>
 												</div>
 											</div>
 										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-02" name="booking-cabin-category">
-											<label for="booking-cabin-category-02" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
+										<div class="booking-cabin__item">
+											<input type="radio" class="booking-cabin__checkbox" id="booking-cabin-type-02" name="booking-cabin-type">
+											<label for="booking-cabin-type-02" class="booking-cabin__label"></label>
+											<div class="booking-cabin__item-inner">
+												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-02.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
 												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с окном Infinite Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 11, 10</span>
+												<div class="booking-cabin__body">
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__title">Penthouse </span>
 													</div>
-													<span class="booking-cabin-type__price">от <span>3228 €</span></span>
-													<span class="booking-cabin-type__description">
-														каюта ~20 м2
-													</span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>18 600 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
+													</div>
 												</div>
 											</div>
 										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-03" name="booking-cabin-category" disabled>
-											<label for="booking-cabin-category-03" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
+										<div class="booking-cabin__item">
+											<input type="radio" class="booking-cabin__checkbox" id="booking-cabin-type-03" name="booking-cabin-type">
+											<label for="booking-cabin-type-03" class="booking-cabin__label"></label>
+											<div class="booking-cabin__item-inner">
+												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-03.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
 												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с балконом с видом на променад Deluxe Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 11, 10</span>
+												<div class="booking-cabin__body">
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__title">Deluxe Penthouse</span>
+														<span class="booking-cabin__description">Палубы 6, 7, 9, 10 (нос)</span>
 													</div>
-													<span class="booking-cabin-type__price">от <span>3958 €</span></span>
-													<span class="booking-cabin-type__description">
-														каюта ~20 м2<br>
-														балкон ~5 м2
-													</span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>19 650 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
+													</div>
 												</div>
 											</div>
 										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-04" name="booking-cabin-category">
-											<label for="booking-cabin-category-04" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
+										<div class="booking-cabin__item">
+											<input type="radio" class="booking-cabin__checkbox" id="booking-cabin-type-04" name="booking-cabin-type">
+											<label for="booking-cabin-type-04" class="booking-cabin__label"></label>
+											<div class="booking-cabin__item-inner">
+												<div class="booking-cabin__img">
 													<img src="img/booking-cabin-04.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
 												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с балконом с частично ограниченным видом Deluxe Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 16, 15</span>
+												<div class="booking-cabin__body">
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__title">Grand Penthouse</span>
+														<span class="booking-cabin__description">Палубы 6, 7, 8, 9, 10 (середина)</span>
 													</div>
-													<span class="booking-cabin-type__price">от <span>5738 €</span></span>
-													<span class="booking-cabin-type__description">
-														каюта ~17 м2<br>
-														балкон ~3 м2
-													</span>
-												</div>
-											</div>
-										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-05" name="booking-cabin-category">
-											<label for="booking-cabin-category-05" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
-													<img src="img/booking-cabin-01.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
-												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с окном Deluxe Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 5, 9</span>
+													<div class="booking-cabin__group">
+														<span class="booking-cabin__price">от <span>21 220 €</span></span>
+														<a href="#" class="booking-cabin__btn modal-btn" data-id="modal-cabin">подробнее</a>
 													</div>
-													<span class="booking-cabin-type__price">от <span>3198 €</span></span>
-													<span class="booking-cabin-type__description">каюта ~20 м2</span>
-												</div>
-											</div>
-										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-06" name="booking-cabin-category">
-											<label for="booking-cabin-category-06" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
-													<img src="img/booking-cabin-02.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
-												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с окном Infinite Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 11, 10</span>
-													</div>
-													<span class="booking-cabin-type__price">от <span>3228 €</span></span>
-													<span class="booking-cabin-type__description">
-														каюта ~20 м2
-													</span>
-												</div>
-											</div>
-										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-07" name="booking-cabin-category">
-											<label for="booking-cabin-category-07" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
-													<img src="img/booking-cabin-03.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
-												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с балконом с видом на променад Deluxe Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 11, 10</span>
-													</div>
-													<span class="booking-cabin-type__price">от <span>3958 €</span></span>
-													<span class="booking-cabin-type__description">
-														каюта ~20 м2<br>
-														балкон ~5 м2
-													</span>
-												</div>
-											</div>
-										</div>
-										<div class="booking-cabin-type__item">
-											<input type="radio" class="booking-cabin-type__checkbox" id="booking-cabin-category-08" name="booking-cabin-category">
-											<label for="booking-cabin-category-08" class="booking-cabin-type__label"></label>
-											<div class="booking-cabin-type__item-inner">
-												<div class="booking-cabin-type__img">
-													<img src="img/booking-cabin-04.jpg" alt="Image">
-													<a href="#" class="booking-cabin-type__btn btn btn--border-white">ПОДРОБНЕЕ</a>
-												</div>
-												<div class="booking-cabin-type__body">
-													<div class="booking-cabin-type__group">
-														<span class="booking-cabin-type__title">Каюта с балконом с частично ограниченным видом Deluxe Fantastica</span>
-														<span class="booking-cabin-type__description">палубы 16, 15</span>
-													</div>
-													<span class="booking-cabin-type__price">от <span>5738 €</span></span>
-													<span class="booking-cabin-type__description">
-														каюта ~17 м2<br>
-														балкон ~3 м2
-													</span>
 												</div>
 											</div>
 										</div>
@@ -618,417 +331,20 @@
 						<div class="booking__holder">
 							<div class="booking__main">
 								<div class="section-heading">
-									<h2 class="section-heading__title">ЛОКАЦИЯ И НОМЕР КАЮТЫ</h2>
-									<p class="section-heading__description">Выберите класс каюты на лайнере</p>
-								</div>
-								<div class="booking-location-cabin">
-									<div class="booking-location-cabin__top">
-										<span class="booking-location-cabin__value">Выбранная вами каюта — 14144 на 14 палубе (Магритт).</span>
-										<div class="booking-location-cabin__other">
-											<span class="booking-location-cabin__label">Другая палуба:</span>
-											<div class="select-box select-box--single booking-location-cabin__select">
-												<div class="select-box__container">
-													<div class="select-box__wrap">
-														<div class="select-box__scroll">
-															<div class="select-box__option">
-																<input type="radio" class="select-box__radio" id="select-cabin-10" name="select-cabin">
-																<label for="select-cabin-10" class="select-box__label">
-																	<span class="select-box__title">Палуба 14 - Магритт</span>
-																</label>
-															</div>
-															<div class="select-box__option">
-																<input type="radio" class="select-box__radio" id="select-cabin-11" name="select-cabin">
-																<label for="select-cabin-11" class="select-box__label">
-																	<span class="select-box__title">Палуба 15 - Магритт</span>
-																</label>
-															</div>
-															<div class="select-box__option">
-																<input type="radio" class="select-box__radio" id="select-cabin-12" name="select-cabin">
-																<label for="select-cabin-12" class="select-box__label">
-																	<span class="select-box__title">Палуба 16 - Магритт</span>
-																</label>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="select-box__selected">
-													<span class="select-box__placeholder select-box__placeholder--active">Палуба 14 - Магритт</span>
-													<span class="select-box__values"></span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="booking-location-cabin__wrapper">
-										<div class="booking-location-cabin__item is--empty">
-											<span class="booking-location-cabin__empty">Кают с такими параметрами нет в этой локации</span>
-											<span class="booking-location-cabin__position">корма</span>
-										</div>
-										<div class="booking-location-cabin__item is--active">
-											<span class="booking-location-cabin__empty">Кают с такими параметрами нет в этой локации</span>
-											<span class="booking-location-cabin__position">середина</span>
-										</div>
-										<div class="booking-location-cabin__item is--empty">
-											<span class="booking-location-cabin__empty">Кают с такими параметрами нет в этой локации</span>
-											<span class="booking-location-cabin__position">нос</span>
-										</div>
-										<picture class="booking-location-cabin__img">
-											<img src="img/booking-cabin-select-01.svg" alt="Image">
-										</picture>
-									</div>
-									<div class="booking-location-cabin__bottom">
-										<div class="booking-location-cabin__buttons">
-											<button class="booking-location-cabin__btn">14144</button>
-											<button class="booking-location-cabin__btn">14202</button>
-											<button class="booking-location-cabin__btn">14252</button>
-											<button class="booking-location-cabin__btn">14420</button>
-											<button class="booking-location-cabin__btn">14707</button>
-											<button class="booking-location-cabin__btn">15012</button>
-										</div>
-									</div>
+									<h2 class="section-heading__title">итог</h2>
+									<p class="section-heading__description">Данные вашего путешествия</p>
 								</div>
 							</div>
 						</div>
 						<div class="booking__holder">
 							<div class="booking__main">
 								<div class="section-heading">
-									<h2 class="section-heading__title">данные</h2>
-									<p class="section-heading__description">Заполните данные пассажиров</p>
-								</div>
-								<div class="booking-data">
-									<div class="booking-data__wrap">
-										<div class="booking-data__wrapper">
-											<div class="booking-data__left">
-												<picture class="booking-data__img">
-													<img src="img/booking-data-01.jpg" alt="Image">
-												</picture>
-												<picture class="booking-data__img">
-													<img src="img/booking-data-02.jpg" alt="Image">
-												</picture>
-											</div>
-											<div class="booking-data__right">
-												<div class="booking-data__content">
-													<h3>Каюта с окном Infinite Fantastica, ~20 м2, №14202, палуба 10</h3>
-													<ul>
-														<li>Возможно 2-, 3- и 4-местное размещение.</li>
-														<li>Основные спальные места: две кровати, поставленные вместе или раздельно по вашему желанию.</li>
-														<li>Дополнительные спальные места: двухъярусная кровать или диван, трансформирующийся в двухъярусную кровать, и/или раскладной диван.</li>
-														<li>Окно (часть окна открывается, оставляя стеклянную балюстраду)</li>
-														<li>Ванная комната с душем.</li>
-														<li>Интерактивное TV, телефон, фен, мини-бар, сейф, кондиционер.</li>
-														<li>Беспроводной Интернет (оплачивается дополнительно).</li>
-													</ul>
-												</div>
-												<div class="booking-info-sm booking-data__info">
-													<div class="booking-info-sm__wrapper">
-														<svg class="booking-info-sm__icon">
-															<use xlink:href="img/sprite.svg#icon-info"></use>
-														</svg>
-														<div class="booking-info-sm__content">
-															<p>Схема каюты, площадь, количество спальных мест, меблировка и дизайн интерьеров, конструктивные особенности могут отличаться от представленных на фотографии (даже среди кают одной категории).</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="booking-data__wrap">
-										<div class="booking-data__content">
-											<h3>Пакет напитков</h3>
-											<p>
-												<b>Дополнительно к базовому пакету включено в стоимость:</b>
-											</p>
-											<p>пакет напитков EASY — определенный ограниченный  выбор алкогольных и безалкогольных напитков по бокалам*:</p>
-											<ul>
-												<li>различные домашние вина, разливное пиво, алкогольные и безалкогольные коктейли, крепкие спиртные напитки, газированные напитки, соки, минеральная вода в бутылках. Классические горячие напитки: эспрессо, капучино, кофе латте, горячий шоколад, чай</li>
-												<li>действует 24 часа в сутки в определенных барах на борту, в основных ресторанах и в ресторане «шведский стол», за исключением  альтернативных ресторанов.</li>
-												<li>для детей от 3 до 17 лет в стоимость включается безалкогольный пакет MINORS PACKAGE</li>
-											</ul>
-											<p><b>не включены в стоимость пакета:</b> мини-бар, минеральная вода в каюте, алкогольные напитки в бутылках, некоторые марки напитков (подробная информация доступна в барных картах на борту).</p>
-											<h3>Базовый пакет</h3>
-											<ul>
-												<li>питание в ресторане "шведский стол" - ранний завтрак, завтрак, закуски в пиццерии и гриле, обед, ужин, закуски для полуночников</li>
-												<li>безалкогольные напитки - вода, чай, кофе - 20 часов в сутки, только в ресторане "шведский стол" на станции напитков</li>
-												<li>питание в ресторане a la carte: завтрак, обед, ужин (все напитки оплачиваются дополнительно)</li>
-												<li>развлекательные мероприятия на борту (представления в театре, живая музыка в барах и лаунжах, анимация, дискотека)</li>
-												<li>посещение всех общественных помещений лайнера, включая бассейны, джакузи у бассейнов, детский водный парк, тренажерный зал• спортивные игры: настольный теннис, мини-гольф, и тд</li>
-												<li>услуги воспитателей и аниматоров для детей пяти возрастных групп в мини-клубах – от 6 месяцев до 17 лет</li>
-												<li>портовые и сервисные сборы</li>
-												<li>услуги представителей на борту (в круизах с русской группой)</li>
-											</ul>
-										</div>
-									</div>
-									<div class="booking-data__wrap">
-										<div class="booking-warning">
-											<div class="booking-warning__wrapper">
-												<p class="booking-warning__description">Заполните, пожалуйста, данные ниже. <b>Данные можно будет потом исправить.</b></p>
-											</div>
-										</div>
-									</div>
-									<div class="booking-data__wrap">
-										<div class="booking-data-form booking-data__form">
-											<div class="booking-data-form__top">
-												<span class="booking-data-form__title">Турист 1: Взрослый</span>
-												<div class="booking-data-form__inner">
-													<p class="booking-data-form__description">Введите данные в том виде, как они указаны в загранпаспорте</p>
-													<div class="square-checkbox booking-data-form__checkbox">
-														<input type="checkbox" class="square-checkbox__input" id="booking-data-not-pass-01">
-														<label for="booking-data-not-pass-01" class="square-checkbox__group">
-															<span class="square-checkbox__icon"></span>
-															<span class="square-checkbox__title">Нет данных загранпаспорта под рукой</span>
-														</label>
-													</div>
-												</div>
-											</div>
-											<div class="booking-data-form__main">
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-surname" type="text" class="input-field-default__input" placeholder="Фамилия">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-name" type="text" class="input-field-default__input" placeholder="Имя">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-birthday" type="text" class="input-field-default__input" placeholder="День рождения">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="select-box select-box--single booking-data-form__input">
-														<div class="select-box__container">
-															<div class="select-box__wrap">
-																<div class="select-box__scroll">
-																	<div class="select-box__option">
-																		<input type="radio" class="select-box__radio" id="select-sex-01" name="select-sex">
-																		<label for="select-sex-01" class="select-box__label">
-																			<span class="select-box__title">Мужской</span>
-																		</label>
-																	</div>
-																	<div class="select-box__option">
-																		<input type="radio" class="select-box__radio" id="select-sex-02" name="select-sex">
-																		<label for="select-sex-02" class="select-box__label">
-																			<span class="select-box__title">Женский</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="select-box__selected">
-															<span class="select-box__placeholder select-box__placeholder--active">Пол</span>
-															<span class="select-box__values"></span>
-														</div>
-													</div>
-												</div>
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-pass" type="text" class="input-field-default__input" placeholder="Серия и номер">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-pass-start" type="text" class="input-field-default__input" placeholder="Дата выдачи">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-pass-end" type="text" class="input-field-default__input" placeholder="Срок действия">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-												</div>
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-tel" type="tel" class="input-field-default__input" placeholder="Телефон">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-email" type="email" class="input-field-default__input" placeholder="E-mail">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-												</div>
-												<div class="booking-data-form__checkboxes">
-													<div class="square-checkbox booking-data-form__checkbox">
-														<input type="checkbox" class="square-checkbox__input" id="booking-data-card-01">
-														<label for="booking-data-card-01" class="square-checkbox__group">
-															<span class="square-checkbox__icon"></span>
-															<span class="square-checkbox__title">Есть клубная карта</span>
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="booking-data__wrap">
-										<div class="booking-data-form booking-data__form">
-											<div class="booking-data-form__top">
-												<span class="booking-data-form__title">Турист 2: Взрослый</span>
-												<div class="booking-data-form__inner">
-													<p class="booking-data-form__description">Введите данные в том виде, как они указаны в загранпаспорте</p>
-													<div class="square-checkbox booking-data-form__checkbox">
-														<input type="checkbox" class="square-checkbox__input" id="booking-data-not-pass-02">
-														<label for="booking-data-not-pass-02" class="square-checkbox__group">
-															<span class="square-checkbox__icon"></span>
-															<span class="square-checkbox__title">Нет данных загранпаспорта под рукой</span>
-														</label>
-													</div>
-												</div>
-											</div>
-											<div class="booking-data-form__main">
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-surname" type="text" class="input-field-default__input" placeholder="Фамилия">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-name" type="text" class="input-field-default__input" placeholder="Имя">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-birthday" type="text" class="input-field-default__input" placeholder="День рождения">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="select-box select-box--single booking-data-form__input">
-														<div class="select-box__container">
-															<div class="select-box__wrap">
-																<div class="select-box__scroll">
-																	<div class="select-box__option">
-																		<input type="radio" class="select-box__radio" id="select-sex-11" name="select-sex-2">
-																		<label for="select-sex-11" class="select-box__label">
-																			<span class="select-box__title">Мужской</span>
-																		</label>
-																	</div>
-																	<div class="select-box__option">
-																		<input type="radio" class="select-box__radio" id="select-sex-12" name="select-sex-2">
-																		<label for="select-sex-12" class="select-box__label">
-																			<span class="select-box__title">Женский</span>
-																		</label>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="select-box__selected">
-															<span class="select-box__placeholder select-box__placeholder--active">Пол</span>
-															<span class="select-box__values"></span>
-														</div>
-													</div>
-												</div>
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-pass" type="text" class="input-field-default__input" placeholder="Серия и номер">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-pass-start" type="text" class="input-field-default__input" placeholder="Дата выдачи">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-pass-end" type="text" class="input-field-default__input" placeholder="Срок действия">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-												</div>
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-tel" type="tel" class="input-field-default__input" placeholder="Телефон">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-													<div class="input-field-default booking-data-form__input">
-														<div class="input-field-default__inner">
-															<input id="booking-input-email" type="email" class="input-field-default__input" placeholder="E-mail">
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-												</div>
-												<div class="booking-data-form__checkboxes">
-													<div class="square-checkbox booking-data-form__checkbox">
-														<input type="checkbox" class="square-checkbox__input" id="booking-data-card-02">
-														<label for="booking-data-card-02" class="square-checkbox__group">
-															<span class="square-checkbox__icon"></span>
-															<span class="square-checkbox__title">Есть клубная карта</span>
-														</label>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="booking-data__wrap">
-										<div class="booking-data-form booking-data__form">
-											<div class="booking-data-form__top">
-												<span class="booking-data-form__title">Пожелания</span>
-											</div>
-											<div class="booking-data-form__main">
-												<div class="booking-data-form__inputs">
-													<div class="input-field-default booking-data-form__textarea">
-														<div class="input-field-default__inner">
-															<textarea id="booking-input-description" class="input-field-default__textarea" placeholder="Напишите ваши пожелания здесь..."></textarea>
-														</div>
-														<span class="input-field-default__error">Это поле обязательное для заполнения!</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="booking-data__wrap">
-										<div class="booking-data-total booking-data__total">
-											<div class="booking-data-total__group">
-												<span class="booking-data-total__value">Стоимость круиза: <span>3538 €</span></span>
-												<span class="booking-data-total__value">Сервисный сбор: <span>340 €</span></span>
-											</div>
-											<div class="booking-data-total__group">
-												<span class="booking-data-total__title">Итоговая стоимость: <span>3538 €</span></span>
-												<span class="booking-data-total__value">(371 490 рублей на 20.01.2025)</span>
-											</div>
-											<div class="booking-data-total__group">
-												<a href="#" class="booking-data-total__share">
-													<svg>
-														<use xlink:href="img/sprite.svg#icon-share"></use>
-													</svg>
-													<span>ПОДЕЛИТЬСЯ</span>
-												</a>
-											</div>
-										</div>
-									</div>
+									<h2 class="section-heading__title">ДАННЫЕ ГОСТЕЙ</h2>
+									<p class="section-heading__description">Заполните, пожалуйста, ваши данные. Их можно будет потом исправить</p>
 								</div>
 							</div>
 						</div>
 						<div class="booking__bottom">
-							<div class="booking-prices booking__bottom-prices">
-								<div class="booking-prices__wrapper">
-									<div class="booking-prices__info">
-										<span class="booking-prices__value">Стоимость круиза: 3198 €</span>
-										<span class="booking-prices__value">Сервисный сбор: +340 €</span>
-									</div>
-									<div class="booking-prices__total">
-										<span class="booking-prices__label">всего</span>
-										<span class="booking-prices__price">1600 €</span>
-									</div>
-								</div>
-							</div>
 							<div class="booking__controls">
 								<button class="booking__control booking__control--border">Назад</button>
 								<button class="booking__control">Далее</button>
@@ -1081,7 +397,7 @@
 	</div>
 	<!-- end of mobile menu -->
 	<!-- modals -->
-	<div class="modal" id="modal-cruise-book">
+	<div class="modal" id="modal-subscribe">
 		<div class="modal__wrap">
 			<div class="modal__wrapper">
 				<button class="modal__close-btn modal__close" aria-label="Закрыть">
@@ -1089,189 +405,167 @@
 						<use xlink:href="img/sprite.svg#icon-close"></use>
 					</svg>
 				</button>
-				<span class="modal__heading">ЗАКАЗ КРУИЗА</span>
-				<div class="book-cruise modal__book-cruise">
-					<div class="book-cruise__wrapper">
-						<div class="book-cruise__left">
-							<picture class="book-cruise__img">
-								<img src="img/book-cruise.jpg" alt="Image">
-							</picture>
-							<div class="input-field book-cruise__input">
-								<div class="input-field__inner">
-									<input id="modal-cruize-name" type="text" class="input-field__input" placeholder="Имя">
-								</div>
-								<span class="input-field__error">Это поле обязательное для заполнения!</span>
+				<div class="modal__top">
+					<span class="modal__heading">ПОДПИШИТЕСЬ,</span>
+					<span class="modal__subtitle">чтобы получать последние новости и предложения</span>
+				</div>
+				<form action="#" class="modal-form modal__form">
+					<div class="modal-form__inner">
+						<div class="input-field modal-form__input">
+							<div class="input-field__inner">
+								<input id="modal-subscribe-email" type="email" class="input-field__input" placeholder="Email *">
 							</div>
-							<div class="input-field book-cruise__input">
-								<div class="input-field__inner">
-									<input id="modal-cruize-email" type="email" class="input-field__input" placeholder="E-mail">
-								</div>
-								<span class="input-field__error">Это поле обязательное для заполнения!</span>
-							</div>
-							<div class="input-field book-cruise__input">
-								<div class="input-field__inner">
-									<input id="modal-cruize-tel" type="tel" class="input-field__input" placeholder="Телефон">
-								</div>
-								<span class="input-field__error">Это поле обязательное для заполнения!</span>
-							</div>
-							<div class="input-field book-cruise__textarea">
-								<div class="input-field__inner">
-									<textarea id="feedback-message" class="input-field__textarea" placeholder="Дополнительная информация"></textarea>
-								</div>
-								<span class="input-field__error">Это поле обязательное для заполнения!</span>
-							</div>
+							<span class="input-field__error">Это поле обязательное для заполнения!</span>
 						</div>
-						<div class="book-cruise__right">
-							<div class="book-cruise__top">
-								<span class="book-cruise__title">Бразилия</span>
-								<span class="book-cruise__location">Италия - Франция - Испания - Марокко - Кабо-Верде - Бразилия</span>
+					</div>
+					<div class="modal-form__inner">
+						<div class="input-field modal-form__input">
+							<div class="input-field__inner">
+								<input id="modal-subscribe-name" type="text" class="input-field__input" placeholder="Имя *">
 							</div>
-							<div class="book-cruise__info">
-								<span class="book-cruise__info-item">05.01.2025, Генуя</span>
-								<span class="book-cruise__info-item">24 дней, 23 ночей</span>
-							</div>
-							<div class="book-cruise__prices">
-								<span class="book-cruise__help">минимальная стоимость *</span>
-								<span class="book-cruise__price">701 220 ₽ </span>
-								<span class="book-cruise__help">*Указана цена круиза на одного человека при двухместном размещении без учета портового сбора</span>
-							</div>
-							<div class="input-field book-cruise__input">
-								<div class="input-field__inner">
-									<input id="modal-cruize-tel" type="number" class="input-field__input" placeholder="Количество человек">
-								</div>
-								<span class="input-field__error">Это поле обязательное для заполнения!</span>
-							</div>
-							<button class="book-cruise__btn btn">ОТПРАВИТЬ</button>
-							<a href="#" class="book-cruise__contact-btn contact-btn contact-btn--green">
-								<svg>
-									<use xlink:href="img/sprite.svg#icon-whatsapp"></use>
-								</svg>
-								<span>WHATSAPP</span>
-							</a>
+							<span class="input-field__error">Это поле обязательное для заполнения!</span>
 						</div>
+						<div class="input-field modal-form__input">
+							<div class="input-field__inner">
+								<input id="modal-subscribe-surname" type="text" class="input-field__input" placeholder="Фамилия *">
+							</div>
+							<span class="input-field__error">Это поле обязательное для заполнения!</span>
+						</div>
+					</div>
+					<p class="modal-form__description">Нажимая на «Подписаться», вы соглашаетесь получать нашу рассылку. Вы всегда сможете отписаться от нее в любом нашем письме. Не пропустите выгодных предложений!</p>
+					<button class="modal-form__btn btn btn--lg">ПОДПИСАТЬСЯ</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="modal-success">
+		<div class="modal__wrap">
+			<div class="modal__wrapper">
+				<button class="modal__close-btn modal__close" aria-label="Закрыть">
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+				<div class="modal-message modal__message">
+					<div class="modal-message__wrapper">
+						<span class="modal-message__heading">СПАСИБО!</span>
+						<p class="modal-message__description">Желаем вам приятного отдыха и ярких впечатлений!</p>
+						<button class="modal-message__btn modal__close btn btn--lg">ЗАКРЫТЬ</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="modal" id="modal-cruise">
-		<div class="modal__wrap modal__wrap--md">
+	<div class="modal" id="modal-filter-directions">
+		<div class="modal__wrap modal__wrap--lg">
 			<div class="modal__wrapper">
-				<button class="modal__close-btn modal__close" aria-label="Закрыть">
-					<svg>
-						<use xlink:href="img/sprite.svg#icon-close"></use>
-					</svg>
-				</button>
-				<span class="modal__heading">ЗАКАЗ КРУИЗА</span>
-				<form action="#" class="modal-form modal__form">
-					<div class="input-field modal-form__input">
-						<div class="input-field__inner">
-							<input id="modal-cruize-name" type="text" class="input-field__input" placeholder="Имя">
-						</div>
-						<span class="input-field__error">Это поле обязательное для заполнения!</span>
+				<div class="modal-filter">
+					<div class="modal-filter__top">
+						<span class="modal-filter__title">Куда поедем?</span>
+						<button class="modal-filter__close-btn modal__close" aria-label="Закрыть">
+							<svg>
+								<use xlink:href="img/sprite.svg#icon-close"></use>
+							</svg>
+						</button>
 					</div>
-					<div class="input-field modal-form__input">
-						<div class="input-field__inner">
-							<input id="modal-cruize-email" type="email" class="input-field__input" placeholder="E-mail">
+					<div class="modal-filter__main">
+						<div class="main-filter-directions modal-filter__directions">
+							<ul class="main-filter-directions__list">
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Африка</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Восточное Средиземноморье</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Карибские острова</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Юго-восток Южной Америки</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Восточная Африка</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Западное Средиземноморье</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Центральные Карибы</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Южная Америка</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Западная Африка </button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">По Средиземноморью</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Восточные Карибы</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Северовосточная Бразилия</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Западная Африка </button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">По Средиземноморью</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Восточные Карибы</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Северовосточная Бразилия</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Западная Африка </button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">По Средиземноморью</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Восточные Карибы</button>
+								</li>
+								<li class="main-filter-directions__item">
+									<button class="main-filter-directions__btn">Северовосточная Бразилия</button>
+								</li>
+							</ul>
 						</div>
-						<span class="input-field__error">Это поле обязательное для заполнения!</span>
+						<button class="modal-filter__clear" id="main-filter-directions-clear">
+							<svg>
+								<use xlink:href="img/sprite.svg#icon-repeat"></use>
+							</svg>
+							<span>Сбросить</span>
+						</button>
+						<button class="modal-filter__btn btn btn--lg modal__close">ВЫБРАТЬ И ЗАКРЫТЬ</button>
 					</div>
-					<div class="input-field modal-form__input">
-						<div class="input-field__inner">
-							<input id="modal-cruize-tel" type="tel" class="input-field__input" placeholder="Телефон">
-						</div>
-						<span class="input-field__error">Это поле обязательное для заполнения!</span>
-					</div>
-					<div class="input-field modal-form__textarea">
-						<div class="input-field__inner">
-							<textarea id="feedback-message" class="input-field__textarea" placeholder="Дополнительная информация"></textarea>
-						</div>
-						<span class="input-field__error">Это поле обязательное для заполнения!</span>
-					</div>
-					<button class="modal-form__btn btn">ОТПРАВИТЬ</button>
-				</form>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="modal" id="modal-cabin">
+	<div class="modal" id="modal-filter-calendar">
 		<div class="modal__wrap modal__wrap--lg">
 			<div class="modal__wrapper">
-				<button class="modal__close-btn modal__close" aria-label="Закрыть">
-					<svg>
-						<use xlink:href="img/sprite.svg#icon-close"></use>
-					</svg>
-				</button>
-				<span class="modal__heading">Каюта с окном Infinite Fantastica</span>
-				<div class="modal-info modal__info">
-					<div class="modal-info__wrapper">
-						<div class="modal-info__left">
-							<div class="modal-info__slider">
-								<div class="swiper">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<picture class="modal-info__slide">
-												<img src="img/booking-cabin-01.jpg" alt="Image">
-											</picture>
-										</div>
-										<div class="swiper-slide">
-											<picture class="modal-info__slide">
-												<img src="img/booking-cabin-02.jpg" alt="Image">
-											</picture>
-										</div>
-										<div class="swiper-slide">
-											<picture class="modal-info__slide">
-												<img src="img/booking-cabin-03.jpg" alt="Image">
-											</picture>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-pagination"></div>
-								<button class="swiper-button-prev" aria-label="Назад">
-									<svg class="swiper-button-icon">
-										<use xlink:href="img/sprite.svg#icon-arrow-prev-bold"></use>
-									</svg>
-								</button>
-								<button class="swiper-button-next" aria-label="Далее">
-									<svg class="swiper-button-icon">
-										<use xlink:href="img/sprite.svg#icon-arrow-next-bold"></use>
-									</svg>
-								</button>
-							</div>
-						</div>
-						<div class="modal-info__right">
-							<div class="modal-info__content">
-								<h3>В сьюте</h3>
-								<ul>
-									<li>панорамные окна с видом на море; лаундж-зона с журнальным столиком;</li>
-									<li>мини-бар, пополняемый по потребностям гостей;</li>
-									<li>кофемашина и капсулы кофе, чайник, заварочный чайник, ассортимент чая;</li>
-									<li>бутылка воды на каждого гостя (пополняется по необходимости);</li>
-									<li>пара биноклей (предоставляется на время круиза);</li>
-									<li>сейф, вмещающий ноутбук или планшет;</li>
-									<li>просторная терраса с обеденной зоной и шезлонгом.</li>
-								</ul>
-								<h3>В спальне</h3>
-								<ul>
-									<li>основное спальное место: двуспальная кровать (king-sized 180x200 см), в некоторых сьютах есть 2 односпальные кровати (twin-size 2х90х200 см);</li>
-									<li>одеяла и подушки на лебяжьем пуху; выбор подушек;</li>
-									<li>постельное белье от премиального итальянского бренда Frette.</li>
-									<li>дополнительное спальное место: раскладная кровать, которую персонал ежедневно устанавливает в сьюте перед сном и забирает на следующий день.  </li>
-								</ul>
-								<h3>В ванной комнате</h3>
-								<ul>
-									<li>просторная ванная комната с душевой кабиной и подогреваемыми полами (в некоторых сьютах есть ванна);</li>
-									<li>мягкие махровые халаты и тапочки;</li>
-									<li>индивидуальные ванные принадлежности;</li>
-									<li>фен Dyson Supersonic;</li>
-									<li>зеркало для макияжа с подсветкой.</li>
-								</ul>
-								<h3>Примечание</h3>
-								<ul>
-									<li>Сьюты с двумя раздельными кроватями отмечены на схеме лайнера обозначением «T», в остальных сьютах – одна двуспальная кровать. Одна конфигурация кроватей не может быть трансформирована в другую.</li>
-									<li>Схема сьюта, площадь, количество спальных мест, меблировка и дизайн интерьеров, конструктивные особенности могут отличаться от представленных на фотографии (даже среди сьютов одной категории).</li>
-								</ul>
-							</div>
-						</div>
+				<div class="modal-filter">
+					<div class="modal-filter__top">
+						<span class="modal-filter__title">Дата путешествия</span>
+						<button class="modal-filter__close-btn modal__close" aria-label="Закрыть">
+							<svg>
+								<use xlink:href="img/sprite.svg#icon-close"></use>
+							</svg>
+						</button>
+					</div>
+					<div class="modal-filter__main">
+						<div class="modal-filter__calendar" id="main-filter-calendar"></div>
+						<button class="modal-filter__clear" id="main-filter-calendar-clear">
+							<svg>
+								<use xlink:href="img/sprite.svg#icon-repeat"></use>
+							</svg>
+							<span>Сбросить даты</span>
+						</button>
+						<button class="modal-filter__btn btn btn--lg modal__close">ВЫБРАТЬ И ЗАКРЫТЬ</button>
 					</div>
 				</div>
 			</div>
