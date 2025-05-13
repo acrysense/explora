@@ -131,7 +131,19 @@
 								</div>
 							</div>
 							<div class="route-details__bottom">
-								<span class="route-details__price">от 4990 €</span>
+								<span class="route-details__prices">
+									<span class="route-details__price">от 4990 €</span>
+									<div class="c-info route-details__price-info">
+										<button class="c-info__trigger" aria-label="Информация">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-info-question"></use>
+											</svg>
+										</button>
+										<div class="c-info__dropdown">
+											<p class="c-info__text">от 3360 € на человека — включен борт-кредит в размере 200€</p>
+										</div>
+									</div>
+								</span>
 							</div>
 						</div>
 					</div>
@@ -720,6 +732,13 @@
 								</li>
 							</ul>
 						</div>
+						<!-- loader -->
+						<div class="c-loader modal-filter__loader">
+							<div class="c-loader__icon">
+								<img src="img/loader.gif" alt="Loader">
+							</div>
+						</div>
+						<!-- end of loader -->
 						<button class="modal-filter__clear" id="main-filter-directions-clear">
 							<svg>
 								<use xlink:href="img/sprite.svg#icon-repeat"></use>
@@ -746,6 +765,13 @@
 					</div>
 					<div class="modal-filter__main">
 						<div class="modal-filter__calendar" id="main-filter-calendar"></div>
+						<!-- loader -->
+						<div class="c-loader modal-filter__loader">
+							<div class="c-loader__icon">
+								<img src="img/loader.gif" alt="Loader">
+							</div>
+						</div>
+						<!-- end of loader -->
 						<button class="modal-filter__clear" id="main-filter-calendar-clear">
 							<svg>
 								<use xlink:href="img/sprite.svg#icon-repeat"></use>

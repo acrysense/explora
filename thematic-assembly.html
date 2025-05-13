@@ -598,6 +598,7 @@
 						<h2 class="section-heading__title">НАПИШИТЕ НАМ</h2>
 						<p class="section-heading__description">Мы рады любым вопросам и предложениям</p>
 					</div>
+					<!-- add class 'is--hidden' for hide form -->
 					<form action="#" class="feedback-form feedback__form">
 						<div class="input-field feedback-form__input">
 							<div class="input-field__inner">
@@ -625,6 +626,14 @@
 						</div>
 						<button class="feedback-form__btn btn btn--md btn--border-grey">ОТПРАВИТЬ</button>
 					</form>
+					<!-- add class 'is--active' for visible message -->
+					<div class="feedback-message feedback__message">
+						<div class="feedback-message__wrapper">
+							<span class="feedback-message__title">Спасибо! </span>
+							<p class="feedback-message__description">Спасибо! Ваше письмо отправлено. Мы вскоре прочитаем его <br>и ответим по возможности.</p>
+							<a href="#" class="feedback-message__btn btn">НАПИСАТЬ ЕЩЕ ОДНО ПИСЬМО</a>
+						</div>
+					</div>
 				</div>
 			</section>
 			<!-- end of feedback -->
@@ -859,6 +868,13 @@
 								</li>
 							</ul>
 						</div>
+						<!-- loader -->
+						<div class="c-loader modal-filter__loader">
+							<div class="c-loader__icon">
+								<img src="img/loader.gif" alt="Loader">
+							</div>
+						</div>
+						<!-- end of loader -->
 						<button class="modal-filter__clear" id="main-filter-directions-clear">
 							<svg>
 								<use xlink:href="img/sprite.svg#icon-repeat"></use>
@@ -885,6 +901,13 @@
 					</div>
 					<div class="modal-filter__main">
 						<div class="modal-filter__calendar" id="main-filter-calendar"></div>
+						<!-- loader -->
+						<div class="c-loader modal-filter__loader">
+							<div class="c-loader__icon">
+								<img src="img/loader.gif" alt="Loader">
+							</div>
+						</div>
+						<!-- end of loader -->
 						<button class="modal-filter__clear" id="main-filter-calendar-clear">
 							<svg>
 								<use xlink:href="img/sprite.svg#icon-repeat"></use>
