@@ -30,6 +30,11 @@
 		<header class="header header--inner" id="header">
 			<div class="container">
 				<div class="header__wrapper">
+					<a href="index.html" class="header__back" aria-label="Вернуться на главную">
+						<svg>
+							<use xlink:href="img/sprite.svg#icon-arrow-back"></use>
+						</svg>
+					</a>
 					<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
 						<span class="hamburger__inner"></span>
 						<span class="hamburger__inner"></span>
@@ -328,6 +333,62 @@
 								</div>
 							</div>
 						</div>
+						<div class="booking__holder is--active">
+							<div class="booking__main">
+								<div class="section-heading">
+									<h2 class="section-heading__title">ВЫБЕРИТЕ ПАКЕТ</h2>
+									<p class="section-heading__description">Решите, хотите ли вы сэкономить на напитках</p>
+								</div>
+								<div class="booking-package booking__package">
+									<div class="booking-package__wrapper">
+										<div class="booking-package__item">
+											<input type="radio" class="booking-package__checkbox" id="booking-package-01" name="booking-package" checked>
+											<label for="booking-package-01" class="booking-package__label"></label>
+											<div class="booking-package__item-inner">
+												<picture class="booking-package__img">
+													<img src="img/booking-package-01.svg" alt="Image">
+												</picture>
+												<div class="booking-package__body">
+													<span class="booking-package__title">Базовый пакет</span>
+													<div class="booking-package__content">
+														<p>
+															<b>питание</b> — 2 бесплатных ресторана<br>
+															<b>напитки</b> — вода, чай, кофе (в ресторане «шведский стол»)<br>
+															<b>инфраструктура</b> — театральное шоу, анимация, бассейны, аквапарк, детский клуб, спортивные сооружения и тд.
+														</p>
+													</div>
+													<span class="booking-package__price">от <span>3198 €</span></span>
+												</div>
+											</div>
+										</div>
+										<div class="booking-package__item">
+											<input type="radio" class="booking-package__checkbox" id="booking-package-02" name="booking-package">
+											<label for="booking-package-02" class="booking-package__label"></label>
+											<div class="booking-package__item-inner">
+												<picture class="booking-package__img">
+													<img src="img/booking-package-02.svg" alt="Image">
+												</picture>
+												<div class="booking-package__body">
+													<span class="booking-package__title">Пакет напитков</span>
+													<span class="booking-package__discount">Со скидкой от основного тарифа!</span>
+													<div class="booking-package__content">
+														<p><b>Все параметры базового. Дополнительно к базовому — пакет напитков Easy</b> — любые напитки стоимостью до 7 евро без ограничения количества во всех барах и ресторанах корабля. Для детей до 17 лет — безалкогольный пакет Minors</p>
+													</div>
+													<span class="booking-package__price">от <span>3198 €</span></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="booking-package__bottom">
+										<div class="booking-package__bottom-content">
+											<p>
+												* Если выбрать базовый пакет, напитки можно будет добавить позже, но по основной стоимости они будут примерно на 40% дороже, чем при выборе сразу тарифа с напитками.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="booking__holder">
 							<div class="booking__main">
 								<div class="section-heading">
@@ -447,7 +508,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="booking__holder is--active">
+						<div class="booking__holder">
 							<div class="booking__main">
 								<div class="section-heading">
 									<h2 class="section-heading__title">ДАННЫЕ ГОСТЕЙ</h2>
